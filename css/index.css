@@ -200,7 +200,7 @@ form>.text1{
      text-align: center;
 }
 
-.container>a>img{
+.container .m-c>a>img{
     
     width: 476px;
     height: 261px;
@@ -208,6 +208,9 @@ form>.text1{
     float: left;
     margin: 26px 8px 27px 0;
    
+}
+.m-c{
+    width: 1000px;
 }
 
 .m02{
