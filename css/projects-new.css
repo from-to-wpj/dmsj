@@ -1,0 +1,361 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+/*顶部导航*/
+.header{
+    width: 100%;
+    height: 48px;
+    background: #2b2b2b;
+}
+.center{
+    width: 960px;
+    height: 48px;
+    margin: 0px auto;
+}
+.header .center .logo{
+    float: left;
+   
+    margin: 11px 16px 0 0;
+}
+.header .center .header-lister{
+    width: 260px;
+    
+    
+}
+.header .center .header-lister a{
+    height: 48px;
+    line-height: 48px;
+    padding: 0 18px;
+    font-size: 13px;
+    color: #ccc;
+    display: block;
+}
+.header .center .header-lister>li{
+    float: left;
+   
+}
+.header .center .header-lister>li>a:hover{
+    background-color: black;
+}
+.header form {
+    width: 200px;
+    height: 29px;
+    background: #030303;
+    border-radius: 3px;
+    float: left;
+    margin-top: 9px;
+    position: relative;
+    display: block;
+}
+
+form>.button{
+    width: 30px;
+    height: 29px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-indent: -999px;
+    cursor: pointer;
+    margin: 0px;
+    background: url(../img/search.png) center center no-repeat;
+    border:none;
+}
+form>.text1{
+    width: 170px;
+    height: 29px;
+    background-color: #030303;
+    border: none;
+    color: white;
+    padding-left: 12px;
+
+}
+
+
+.header-lister01>li{
+    height: 48px;
+    line-height: 47px;
+    color: #ccc;
+    font-size: 14px;
+    float: left;
+    margin-left: 18px;
+    position: relative;
+    display: block;
+   
+
+
+}
+.header-lister01>li>a{
+    color: #ccc;
+}
+.header-lister01>li>a:hover{
+    color: #999;
+}
+.header-lister01>li>span{
+    height: 16px;
+    width: 4px;
+    margin-left: 14px;
+}
+
+.header-lister01 .list01 .a1{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 12px 0 0 9px;
+   
+    background: url(..//img/icon.png) -25px 0 no-repeat;
+}
+
+.header-lister01 .list01 .a2{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 12px 0 0 9px;
+   
+    background: url(..//img/icon.png) -50px 0 no-repeat;
+
+}
+.header-lister01 .list01 .a3{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 12px 0 0 9px;
+   
+    background: url(..//img/icon.png) 0 0 no-repeat;
+
+}
+.header-lister01 .list01 .a4{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 12px 0 0 9px;
+   
+    background: url(..//img/icon.png) -75px 0 no-repeat;
+
+}
+
+/*顶部结束*/
+
+
+/*中部*/
+.container .container-center{
+	width: 960px;
+    margin: 0px auto;
+    height: auto;
+    overflow: hidden;
+
+}
+.top-pic{
+    width:100%;
+    height: 312px;
+}
+.do-whate{
+	padding: 82px 0 102px;
+    text-align: center;
+    z-index: 4;
+}
+.who-am-i{
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.pic{
+	padding: 90px 0 72px;
+	display: block;
+	text-align: center;
+
+}
+
+
+.we-like-too{
+    margin: 0 auto 46px;
+}
+.picb{
+    text-align: center;
+}
+.pic4{
+    clear: both;
+    overflow: hidden;
+}
+.pic4>li{
+    float: left;
+    width: 460px;
+    height: 300px;
+    margin: 10px;
+}
+.pic4 .textarea{
+    padding: 30px 20px 0;
+    line-height: 40px;
+    background: #f3f3f3;
+    text-align: left;
+    height: 270px;
+   
+}
+.pic4 .textarea{
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    font-size: 13px;
+   
+}
+
+.together>img{
+    display: block;
+    margin: 0px auto;
+    margin-top: 55px;
+
+}
+.together>p{
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin: 35px 0 32px 0;
+    overflow: hidden;
+}
+.i-agree{
+    width: 280px;
+    height: 22px;
+    text-align: center;
+}
+.i-agree>p{
+    text-align: center;
+
+}
+.checbox{
+    display: inline-block;
+    padding-left: 5px;
+    line-height: 17px;
+    overflow: hidden;
+    color: #8c8c8c;
+    font-size: 14px;
+
+   /* background: url(../img/superscript.png) no-repeat -732px -813px;   */
+}
+.checbox>#agree{
+  float: left;
+  height: 17px;
+  width: 17px;
+  margin-right: 5px;
+
+
+}
+.view{
+  
+    float: right;
+    font-size: 14px;
+    color: #C7D102;
+    display: block;
+    line-height: 18px;
+}
+.start{
+    width: 157px;
+    height: 49px;
+    line-height: 49px;
+    border:4px solid #c7d102;
+    display: block;
+    font-size: 23px;
+   
+    margin: 0px auto;
+    margin-bottom: 75px;
+    margin-top: 220px;
+    padding-left: 34px;
+    background:url(../img/point.png)  143px center no-repeat;
+}
+.start{
+    color: #c7d102; 
+    
+
+}
+.container-center .start:hover{
+    background-color: #c7d102;
+    color:#fff;
+    background-image: url(../img/point-w.png) ;
+
+    background-size:25px 24px ;
+   
+}
+/*中部结束*/
+/*底部*/
+.footer{
+  
+    height: 115px;
+    background: #e6e6e6;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+.f-fl{
+    width: 960px;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+.f-list>li{
+   
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    
+    padding-right: 8px;
+    font-size: 12px;
+}
+.f-list>li>a{
+    color: black;
+}
+.f-list>li>a:hover{
+    color: #c7d102;
+}
+.wechat{
+    float: right;
+    width: 165px;
+    height: 82px;
+    display: block;
+    margin: -30px 0 0 10px;
+    background: url(../img/WeChat.gif) no-repeat;
+}
+.mobile{
+    float: right;
+    width: 165px;
+    height: 82px;
+    display: block;
+    margin: -30px 0 0 10px;
+    background: url(../img/mobile-client.gif) no-repeat;
+}
+.f-p{
+    float: left;
+    width: 560px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    margin-top: 9px;
+}
+.f-list>li>span{
+    font-size: 8px;
+
+}
+/*底部结束*/
+.t-and-b{
+    bottom: 64px;
+    background-position: left -1000px ;
+    margin-left: 1400px;
+    position: fixed;
+    z-index: 3;
+    width: 80px;
+    height: 30px;
+    background: url(../img/superscript.png) 30px -1005px no-repeat;
+}
+
+.t-and-b:hover{
+    bottom: 67px;
+    background-position: left -1000px ;
+    margin-left: 1400px;
+    position: fixed;
+    z-index: 3;
+    width: 80px;
+    height: 30px;
+    background: url(../img/superscript.png) 30px -1035px no-repeat;
+}

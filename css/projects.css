@@ -1,0 +1,351 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+/*顶部导航*/
+.header{
+    width: 100%;
+    height: 48px;
+    background: #2b2b2b;
+}
+.center{
+    width: 960px;
+    height: 48px;
+    margin: 0px auto;
+}
+.header .center .logo{
+    float: left;
+   
+    margin: 11px 16px 0 0;
+}
+.header .center .header-lister{
+    width: 260px;
+    
+    
+}
+.header .center .header-lister a{
+    height: 48px;
+    line-height: 48px;
+    padding: 0 18px;
+    font-size: 13px;
+    color: #ccc;
+    display: block;
+}
+.header .center .header-lister>li{
+    float: left;
+   
+}
+.header .center .header-lister>li>a:hover{
+    background-color: black;
+}
+.header form {
+    width: 200px;
+    height: 29px;
+    background: #030303;
+    border-radius: 3px;
+    float: left;
+    margin-top: 9px;
+    position: relative;
+    display: block;
+}
+
+form>.button{
+    width: 30px;
+    height: 29px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-indent: -999px;
+    cursor: pointer;
+    margin: 0px;
+    background: url(../img/search.png) center center no-repeat;
+    border:none;
+}
+form>.text1{
+    width: 170px;
+    height: 29px;
+    background-color: #030303;
+    border: none;
+    color: white;
+    padding-left: 12px;
+
+}
+
+
+.header-lister01>li{
+    height: 48px;
+    line-height: 47px;
+    color: #ccc;
+    font-size: 14px;
+    float: left;
+    margin-left: 18px;
+    position: relative;
+    display: block;
+   
+
+
+}
+.header-lister01>li>a{
+    color: #ccc;
+}
+.header-lister01>li>a:hover{
+    color: #999;
+}
+.header-lister01>li>span{
+    height: 16px;
+    width: 4px;
+    margin-left: 14px;
+}
+
+.header-lister01 .list01 .a1{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 12px 0 0 9px;
+   
+    background: url(..//img/icon.png) -25px 0 no-repeat;
+}
+
+.header-lister01 .list01 .a2{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 12px 0 0 9px;
+   
+    background: url(..//img/icon.png) -50px 0 no-repeat;
+
+}
+.header-lister01 .list01 .a3{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 12px 0 0 9px;
+   
+    background: url(..//img/icon.png) 0 0 no-repeat;
+
+}
+.header-lister01 .list01 .a4{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 12px 0 0 9px;
+   
+    background: url(..//img/icon.png) -75px 0 no-repeat;
+
+}
+
+/*顶部结束*/
+/*下级导航*/
+.contener{
+     background: #e6e6e6;
+     width: 100%;
+}
+.contener .content{
+    width: 980px;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    background: #e6e6e6;
+    display: block;
+}
+.content,.list-kind{
+    background: #e6e6e6;
+    border-radius:5px ;
+    color: #666;
+    font-size: 13px;
+    width: 980px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.list-kind>ul>li{
+    float: left;
+    margin-right: 14px;
+    margin-left: 2px;
+}
+.list-kind>ul>li>a{
+     font-size: 13px;
+    color: #666;
+    padding: 5px 8px;
+}
+.list-kind>ul{
+    height: 36px;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 36px;
+    color: #666;
+    background: white;
+
+}
+.list-k{
+    width: 960px;
+    border-radius: 5px;
+}
+ .list-kind .list-k .all-kind{
+    background: #d2dc00;
+    border-radius: 3px;
+    color: white;
+}
+
+ .list-kind>ul>li>a:hover{
+    background: #bbb;
+    color: #fff;
+    border-radius: 3px;
+}
+
+/*下级导航结束*/
+/*项目列表*/
+
+.projects-list>ul>li>a>img{
+    width: 232px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: block;
+    
+}
+.projects-list>ul{
+    background-color: white;
+    width: 232px;
+    border-radius: 5px;
+    float: left;
+    margin: 0 11px 11px 0;
+
+}
+.projects-list>ul>li>a{
+    font-size: 14px;
+    color: #2b2b2b;
+}
+.textarea{
+    height: 40px;
+    line-height: 19px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 14px;
+    padding-bottom: 9px;
+}
+.textarea>a:hover{
+    color: #99cc00;
+}
+
+.money{
+    color: #2b2b2b;
+    font-size: 15px;
+    display: block;
+    padding-left: 14px;
+}
+.coming{
+    width: 204px;
+    height: 6px;
+    background: #d9d8dd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 3px 0 8px 0;
+
+}
+.color-3{
+    width: 26.52px;
+    height: 6px;
+    background-color: #2bde73;
+    border-left-radius:10px;
+    overflow: hidden;
+
+}
+.color-4{
+    width: 42.84px;
+    height: 6px;
+    background-color: #2bde73;
+    border-left-radius:10px;
+    overflow: hidden;
+}
+.money>strong{
+    float: left;
+    font-size: 14px;
+    color: #2b2b2b;
+    font-weight: normal;
+}
+.money>i{
+    float: right;
+    font-size: 13px;
+    color: #828587;
+    font-style: normal;
+    padding-right: 14px;
+}
+
+
+
+.more{
+    text-align: center;
+   
+}
+.more>a{
+     font-size: 16px;
+    color: #669900;
+
+}
+.more>a:hover{
+    color: #99cc00;
+}
+
+
+/*底部*/
+.footer{
+  
+    height: 115px;
+    background: #e6e6e6;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+.f-fl{
+    width: 960px;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+.f-list>li{
+   
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    
+    padding-right: 8px;
+    font-size: 12px;
+}
+.f-list>li>a{
+    color: black;
+}
+.f-list>li>a:hover{
+    color: #c7d102;
+}
+.wechat{
+    float: right;
+    width: 165px;
+    height: 82px;
+    display: block;
+    margin: -30px 0 0 10px;
+    background: url(../img/WeChat.gif) no-repeat;
+}
+.mobile{
+    float: right;
+    width: 165px;
+    height: 82px;
+    display: block;
+    margin: -30px 0 0 10px;
+    background: url(../img/mobile-client.gif) no-repeat;
+}
+.f-p{
+    float: left;
+    width: 560px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    margin-top: 9px;
+}
+.f-list>li>span{
+    font-size: 8px;
+
+}
+/*底部结束*/
